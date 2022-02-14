@@ -1,20 +1,5 @@
-# Monitoring Views Workshop
+# Monitoring collections
+> Las peticiones están hechas con Thunder Client de Visual Studio Code.
 
-* if you want a easy installation use **pipenv\*** else use **requirements.txt**
+![image](https://user-images.githubusercontent.com/69475004/153787904-869bb63f-f5a3-4808-b4d0-13c05a7d7d0d.png)
 
-**pipenv:** can be installed wih:
-
-```bash
-pip install pipenv
-```
-
-dont forget to check if you have the right python version: 3.8
-
-* Executing with pipenv 
-```bash
-pipenv run python {command}
-```
-Example:
-```bash
-pipenv run python manage.py makemigrations 
-```
