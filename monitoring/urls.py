@@ -23,4 +23,5 @@ urlpatterns = [
     path('home/', views.home),
     path('crola_home/', views.crola_view),
     path('variables/', include('variables.urls')),
+    path('measurements/', include('measurements.urls')),
 ]
